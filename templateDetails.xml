@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.6//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="2.5" type="template" client="site">
+	<name>JoomGeneric</name>
+	<creationDate>04/13/13</creationDate>
+	<author>Sean Alewine</author>
+	<authorEmail>jetstar@gamrview.com</authorEmail>
+	<authorUrl>http://gamrview.com</authorUrl>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<version>1.4.2</version>
+	<description>This template is a basic theme you can use on a joomla website for a forum or other Minecraft related community.<br>This template was originally created by Seth Moon on the Foundation Framework, and modified by Sean Alewine to work with Joomla.</description>
+
+	<files>
+		<folder>font</folder>
+		<folder>extras</folder>
+		<folder>js</folder>
+		<folder>img</folder>
+		<folder>css</folder>
+		<folder>html</folder>
+		<filename>index.php</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>template_preview.png</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>favicon.ico</filename>
+		
+	</files>
+
+	<positions>
+		<position>top-menu</position>
+		<position>footer</position>
+		<position>side</position>
+	</positions>
+	
+		<config>
+		<fields name="params">
+		<fieldset name="basic">
+				<field name="Title"  type="text" default="Joom Generic"
+					label="DIsplayed Title"
+					description="Enter the title that will display at the top of the webpage"
+					filter="string" />
+
+				<field name="Tagline"  type="text" default="Let's Play Some Minecraft"
+					label="Site Tagline"
+					description="Enter the subtext displayed below the title"
+					filter="string" />
+				
+				<field name="background" type="list" default="Default"
+					label="Background Image"
+					description="Select the image you would like tiled as the sites background"
+					filter="word"
+				>
+
+					<option value="Default">default</option>
+					<option value="Dirt">dirt</option>
+
+				</field>
+
+			</fieldset>
+		</fields>
+	</config>
+</extension>
