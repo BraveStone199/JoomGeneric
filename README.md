@@ -1,7 +1,7 @@
 JoomGeneric
 ===========
 
-Recoded McGeneric Template to work with Joomla. This template supports all core Joomla components and modules. It also supports the Joomla Discussions plugin developed by [CodingFish](codingfish.com).
+Recoded McGeneric Template to work with Joomla. This template supports all core Joomla components and modules. It also supports the Joomla Discussions plugin developed by [CodingFish](http://codingfish.com).
 
 ##Instalation
 
